@@ -24,15 +24,3 @@ def order():
 
 app.run(host='0.0.0.0', port=80, debug=True)
 
-# EJERCICIO
-
-# POST -> localhost/order
-# json -> {"numbers": [23, 432, 88, 90, 90, 70]} Números positivos del 1 al 1000, se pueden repetir.
-# SIEMPRE SE RECIBE LISTA NUMERICA (no pasan strings, ni números negativos, y no se presupone que
-# el usuario la va a liar.
-
-# se pide:
-# eliminar elementos repetidos
-# ordenar de menor a mayor los restantes
-# devolver en formato json:
-# {"ordered_numbers" : [23, 70, 88, 90, 432]}
